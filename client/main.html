@@ -1,0 +1,27 @@
+<head>
+  <title>Rotti-App</title>
+</head>
+
+<body>
+  <h1>Rotti App Version 0.1</h1>
+
+  {{> dashboard}}
+  {{> info}}
+  
+ 
+
+   <iframe src="http://10.0.0.6:8081"></iframe> 
+</body>
+
+<template name="dashboard">
+  <button>Watch Live Stream</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="info">
+  <h2>Current Status</h2>
+  <ul>
+    <li>x many captures in the past 20 minutes</li>
+    <li>etc.</li>
+  </ul>
+</template>

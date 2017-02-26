@@ -1,0 +1,18 @@
+/* CSS declarations go here */
+body {
+    background:#eee;
+}
+
+button {
+  transition: all 200ms ease-in;
+  color: @color-secondary;
+  cursor: pointer;
+  text-decoration: none;  
+}
+
+iframe {
+    width:600px;
+    height:300px;
+
+}
+
